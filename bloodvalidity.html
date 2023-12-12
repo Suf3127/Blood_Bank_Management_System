@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/8550a0dc22.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Enter the donor details</title>
+    <link rel="stylesheet" href="donor.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            Donor Details
+          </div>
+    <form class="form"action="bloodvalidity.php" method="POST">
+        <div class="inputfield">
+            <label>Blood Id</label>
+            <select name="bid" id="bid" class="custom_select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+            </select>
+            </div>
+          <div class="inputfield">
+            <label>Blood Validity</label>
+                <input type="date" name="bdate" placeholder="Blood Validity" class="custom_select">
+                </div>
+        
+    <button class="btn" type="submit" name="save">Save</button>
+    <button class="btn" type="submit" name="del">Delete</button>
+    </div>
+</form>
+</body>
+</html>

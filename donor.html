@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/8550a0dc22.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Enter the donor details</title>
+    <link rel="stylesheet" href="donor.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            Donor Details
+          </div>
+    <form class="form" action="donor.php" method="POST">
+   
+        <div class="inputfield">
+            <label>Donor Id</label>
+            <input type="text" oninvalid="alert('You must fill out the form!');" class="input" name="did" placeholder="Donor Id">
+        </div>
+        
+        
+        
+        <div class="inputfield">
+            <label>Supervisor Id</label>
+            <select name="sid" class="custom_select" id="sid" >
+                <option>100</option>
+                <option>101</option>
+                <option>102</option>
+                <option>103</option>
+                <option>104</option>
+                <option>105</option>
+                <option>106</option>
+                <option>107</option>
+            </select>
+    </div>
+    <div class="inputfield">
+        <label>Donor Name</label>
+        <input type="text"class="input" name="dname" placeholder="Donor Name">
+    </div>
+     <div class="inputfield">
+        <label>Blood Id</label>
+            <select name="bid" class="custom_select" id="bid" >
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+            </select>
+    </div>   
+    <div class="inputfield">
+        <label>Blood Name</label>
+            <select name="bname" class="custom_select" id="bname">
+                    <option>A+ve</option>
+                    <option>A-ve</option>
+                    <option>B+ve</option>
+                    <option>B-ve</option>
+                    <option>O+ve</option>
+                    <option>O-ve</option>
+                    <option>AB+ve</option>
+                    <option>AB-ve</option>
+                </select>
+    </div>
+        
+    <button class="btn" type="submit" name="save">Save</button>
+    <button class="btn" type="submit" name="del">Delete</button>
+    </div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+

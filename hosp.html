@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/8550a0dc22.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Enter the donor details</title>
+    <link rel="stylesheet" href="donor.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            Hospital Details
+          </div>
+    <form class="form"action="hosp.php" method="POST">
+    
+        <div class="inputfield">
+            <label>Donor Id</label>
+        <input type="text" name="did" placeholder="Enter the Donor id">
+        </div>
+        <div class="inputfield">
+            <label>Blood Id</label>
+        <input type="text" name="bid" placeholder="Enter the Blood id">
+        </div> 
+        <div class="inputfield">
+            <label>Supervisor Id</label>
+        <input type="text" name="sid" placeholder="Enter the Supervisor id">
+        </div>
+        <div class="inputfield">
+            <label>Hospital Name</label>
+            <input type="text" name="hname" placeholder="Enter the Hospital name">
+        </div>
+
+    <button class="btn" type="submit" name="save">Save</button>
+    <button class="btn" type="submit" name="del">Delete</button>
+    </div>
+</form>
+</body>
+</html>
